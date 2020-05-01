@@ -44,8 +44,6 @@
 
 //refactored the solution above
 function maxChar(str) {
-  if (str.length === 1) return str[0];
-
   let obj = {};
   for (let char of str) {
     obj[char] ? obj[char]++ : (obj[char] = 1);
