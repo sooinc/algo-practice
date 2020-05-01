@@ -15,10 +15,8 @@
 // //first thought is to loop through the str. and save each character in an object with the initial value of 1. if the character has come out before then raise the value by 1
 // //loop through the values and find the biggest. return the key that holds that value
 // function maxChar(str) {
-//   if (str.length === 1) return str[0];
-
 //   let obj = {};
-//   for (let i = 0; i < str.length - 1; i++) {
+//   for (let i = 0; i <= str.length - 1; i++) {
 //     if (obj[str[i]]) {
 //       obj[str[i]]++;
 //     } else {
@@ -29,7 +27,7 @@
 //   let arr = Object.values(obj);
 
 //   let biggest = arr[0];
-//   for (let i = 0; i < arr.length - 1; i++) {
+//   for (let i = 0; i <= arr.length - 1; i++) {
 //     if (arr[i + 1] > biggest) {
 //       biggest = arr[i + 1];
 //     }
