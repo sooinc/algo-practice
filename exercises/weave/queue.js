@@ -22,4 +22,9 @@ class Queue {
   }
 }
 
+let example = new Queue();
+example.add(1);
+example.add(2);
+console.log(example.data);
+
 module.exports = Queue;
